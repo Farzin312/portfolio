@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="contact-info">
+            <h1>Farzin Shifat</h1>
+            <p>Phone: (347) 233-8253</p>
+            <p>Email: farzinbusiness0@gmail.com</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Hi, I am Farzin Shifat</h2>
+            <img src="images/profile.jpg" alt="Profile Image" class="profile-img">
+            <p>I am a dedicated web developer with a strong foundation in both front-end and back-end technologies, with a particular focus on backend development. Based in Queens, NY, I am committed to self-improvement and continuous learning,
+                actively seeking out new knowledge through platforms like boot.dev, FreeCodeCamp, and Udemy.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><img src="images/python-logo.png" alt="Python"> Python, Flask, and Django</li>
+                <li><img src="images/sql-logo.png" alt="SQL"> SQL</li>
+                <li><img src="images/javascript-logo.png" alt="JavaScript"> JavaScript</li>
+                <li><img src="images/html-logo.png" alt="HTML"> HTML</li>
+                <li><img src="images/css-logo.png" alt="CSS"> CSS</li>
+                <li><img src="images/react-logo.png" alt="React"> React</li>
+                <li><img src="images/tailwind-logo.png" alt="Tailwind"> Tailwind</li>          
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>ActiveTrack</h3>
+                <p>Fitness App in progress using Django and ReactNative.</p>
+            </div>
+            <div class="project">
+                <h3>SouthLink.site</h3>
+                <p>Deployed website using React and Flask called SouthLink. Visit <a href="https://southlink.site" target="_blank">southlink.site</a> for more details.</p>
+            </div>
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>This portfolio website built using HTML, CSS, and JavaScript.</p>
+            </div>
+        </section>
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <div class="recommendation">
+                <p>"Working with Farzin Shifat on the ActiveTrack project was a fantastic experience. Their expertise in Flask and React was evident from day one, and their commitment to the project ensured we delivered on time and beyond expectations. Farzin Shifat's ability to learn and adapt quickly makes them a valuable asset to any team."</p>
+                <cite>- Syed Salihin, Project Manager at SouthLink</cite>
+            </div>
+            <div class="recommendation">
+                <p>"Farzin Shifat's work on the SouthLink website has been nothing short of exemplary. Their deep understanding of React and Flask, combined with their problem-solving skills, contributed significantly to the success of our project. Farzin's dedication and professionalism are truly commendable."</p>
+                <cite>- Amina Khan, Lead Developer at TechCorp</cite>
+            </div>
+            <div class="recommendation">
+                <p>"I had the pleasure of collaborating with Farzin Shifat on several web development projects. Their expertise in both front-end and back-end technologies, particularly in Python and React, is impressive. Farzin's proactive approach and attention to detail have consistently resulted in high-quality work."</p>
+                <cite>- John Doe, Senior Software Engineer at WebSolutions</cite>
+            </div>
+            <form id="recommendation-form">
+                <h3>Add a Recommendation</h3>
+                <textarea id="new-recommendation" rows="4" placeholder="Write your recommendation here..."></textarea>
+                <input type="text" id="recommendation-author" placeholder="Your Name">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+        <a href="#" class="scroll-to-top"><img src="images/up-arrow.png" alt=""></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
